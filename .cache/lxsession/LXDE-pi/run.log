@@ -1,0 +1,134 @@
+** Message: environement.vala:58: Exporting primary_variable
+** Message: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:149: confir_dirs is null, export : /etc/xdg
+** Message: environement.vala:183: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:217: custom_data :
+** Message: environement.vala:218: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:219: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:224: Exporting XDG_DATA_DIRS
+** Message: utils.vala:68: User config used : /home/pi/UAV/get_data/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/UAV/get_data/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:527: Key file does not have key 'iGtk/ColorScheme'
+** Message: settings.vala:527: Key file does not have key 'windows_manager/command'
+** Message: settings.vala:527: Key file does not have key 'panel/command'
+** Message: settings.vala:527: Key file does not have key 'dock/command'
+** Message: settings.vala:527: Key file does not have key 'file_manager/command'
+** Message: settings.vala:527: Key file does not have key 'desktop_manager/command'
+** Message: settings.vala:527: Key file does not have key 'launcher_manager/autostart'
+** Message: settings.vala:527: Key file does not have key 'composite_manager/command'
+** Message: settings.vala:527: Key file does not have key 'im1/command'
+** Message: settings.vala:527: Key file does not have key 'im2/command'
+** Message: settings.vala:527: Key file does not have key 'widget1/command'
+** Message: settings.vala:527: Key file does not have key 'notification/command'
+** Message: settings.vala:527: Key file does not have key 'keybindings/command'
+** Message: settings.vala:527: Key file does not have key 'screensaver/command'
+** Message: settings.vala:527: Key file does not have key 'power_manager/command'
+** Message: settings.vala:527: Key file does not have key 'audio_manager/command'
+** Message: settings.vala:527: Key file does not have key 'workspace_manager/command'
+** Message: settings.vala:527: Key file does not have key 'screenshot_manager/command'
+** Message: settings.vala:527: Key file does not have key 'message_manager/command'
+** Message: settings.vala:527: Key file does not have key 'upgrade_manager/command'
+** Message: settings.vala:527: Key file does not have key 'upstart_user_session'
+** Message: settings.vala:527: Key file does not have key 'proxy_manager/http'
+** Message: settings.vala:527: Key file does not have key 'a11y/command'
+** Message: settings.vala:527: Key file does not have key 'xrandr/command'
+** Message: settings.vala:527: Key file does not have key 'network_gui/command'
+** Message: settings.vala:527: Key file does not have key 'webbrowser/command'
+** Message: settings.vala:527: Key file does not have key 'email/command'
+** Message: settings.vala:527: Key file does not have key 'pdf_reader/command'
+** Message: settings.vala:527: Key file does not have key 'video_player/command'
+** Message: settings.vala:527: Key file does not have key 'audio_player/command'
+** Message: settings.vala:527: Key file does not have key 'images_display/command'
+** Message: settings.vala:527: Key file does not have key 'text_editor/command'
+** Message: settings.vala:527: Key file does not have key 'archive/command'
+** Message: settings.vala:527: Key file does not have key 'charmap/command'
+** Message: settings.vala:527: Key file does not have key 'calculator/command'
+** Message: settings.vala:527: Key file does not have key 'spreadsheet/command'
+** Message: settings.vala:527: Key file does not have key 'bittorent/command'
+** Message: settings.vala:527: Key file does not have key 'document/command'
+** Message: settings.vala:527: Key file does not have key 'webcam/command'
+** Message: settings.vala:527: Key file does not have key 'burn/command'
+** Message: settings.vala:527: Key file does not have key 'notes/command'
+** Message: settings.vala:527: Key file does not have key 'disk_utility/command'
+** Message: settings.vala:527: Key file does not have key 'tasks/command'
+** Message: settings.vala:527: Key file does not have group 'Keymap'
+** Message: settings.vala:527: Key file does not have key 'laptop_mode'
+** Message: settings.vala:527: Key file does not have key 'gnome'
+** Message: settings.vala:527: Key file does not have group 'Updates'
+** Message: settings.vala:527: Key file does not have key 'type'
+** Message: settings.vala:449: Monitoring: /home/pi/UAV/get_data/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:453: Desktop file is already in config home, do nothing
+** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: environement.vala:79: Exporting variable
+** Message: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:176: custom_config :
+** Message: environement.vala:177: config_dirs :/etc/xdg
+** Message: environement.vala:178: confir_dirs not null, export : /etc/xdg
+** Message: environement.vala:183: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:217: custom_data :
+** Message: environement.vala:218: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:219: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:224: Exporting XDG_DATA_DIRS
+** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: options.vala:164: Activate xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/UAV/get_data/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/UAV/get_data/.config/lxsession/LXDE-pi/desktop.conf
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: app.vala:717: polkit separate
+** Message: app.vala:717: polkit separate
+** Message: app.vala:76: Launching lxpolkit 
+** Message: utils.vala:68: User config used : /home/pi/UAV/get_data/.config/lxsession/LXDE-pi/autostart
+** Message: utils.vala:89: Final file used : /home/pi/UAV/get_data/.config/lxsession/LXDE-pi/autostart
+** Message: autostart.vala:42: Autostart path : /home/pi/UAV/get_data/.config/lxsession/LXDE-pi/autostart
+** Message: app.vala:76: Launching lxpanel 
+** Message: app.vala:76: Launching pcmanfm 
+
+** (lxsession:806): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
+
+** (lxsession:806): WARNING **: app.vala:87: Error when launching xscreensaver
+** Message: options.vala:107: Create build-in Clipboard
+** Message: main.vala:429: Check keymap_mode (null)
+** Message: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-B6hSpo9ufv3Q/agent.879; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=882; export SSH_AGENT_PID;
+echo Agent pid 882;
+Obt-Message: Xinerama extension is not present on the server
+** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+W: [pulseaudio] authkey.c: Failed to open cookie file '/home/pi/UAV/get_data/.config/pulse/cookie': No such file or directory
+W: [pulseaudio] authkey.c: Failed to load authorization key '/home/pi/UAV/get_data/.config/pulse/cookie': No such file or directory
+W: [pulseaudio] authkey.c: Failed to open cookie file '/home/pi/UAV/get_data/.pulse-cookie': No such file or directory
+W: [pulseaudio] authkey.c: Failed to load authorization key '/home/pi/UAV/get_data/.pulse-cookie': No such file or directory
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (lxpanel:875): WARNING **: the pcmanfm.desktop is not valid desktop id of file manager
+** Message: Connecting ...
+** Message: Status changed to down
+** Message: Status changed to opened
+** Message: Connected to dhcpcd-6.7.1
+** Message: Status changed to connected
+** Message: wlan0: Associated with fantastic
+** Message: wlan0: Configured 192.168.1.154/24
+** Message: eth0: Link is down
+** Message: wlan0: Received scan results
+** Message: bt: Name org.bluez owned on DBus
+** Message: bt: New agent manager found
+** Message: bt: New adapter found
+** Message: va: Name org.bluez owned on DBus
+** Message: va: Stopping PulseAudio
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 2300 requests (2300 known processed) with 0 events remaining.

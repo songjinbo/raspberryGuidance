@@ -1,0 +1,422 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFER_SIZE	.client.cpp	16;"	d	file:
+CAMERA_PAIR_NUM	DJI_guidance.h	20;"	d
+CFLAGS	Makefile	/^CFLAGS = -g -Wall -I..\/include `pkg-config --cflags opencv`$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+ConnectGuidance	getDataAndTrans.cpp	/^int ConnectGuidance()$/;"	f	signature:()
+ConnectGuidance	getDataAndTrans.cpp	/^int ConnectGuidance();$/;"	p	file:	signature:()
+ConnectGuidance	getDataAndTransTCP.cpp	/^int ConnectGuidance()$/;"	f	signature:()
+ConnectGuidance	getDataAndTransTCP.cpp	/^int ConnectGuidance();$/;"	p	file:	signature:()
+DJI_event	DJI_utility.cpp	/^DJI_event::DJI_event()$/;"	f	class:DJI_event	signature:()
+DJI_event	DJI_utility.h	/^	DJI_event();$/;"	p	class:DJI_event	access:public	signature:()
+DJI_event	DJI_utility.h	/^class DJI_event$/;"	c
+DJI_event::DJI_event	DJI_utility.cpp	/^DJI_event::DJI_event()$/;"	f	class:DJI_event	signature:()
+DJI_event::DJI_event	DJI_utility.h	/^	DJI_event();$/;"	p	class:DJI_event	access:public	signature:()
+DJI_event::m_pipe_read	DJI_utility.h	/^	HANDLE      m_pipe_read;$/;"	m	class:DJI_event	access:private
+DJI_event::m_pipe_write	DJI_utility.h	/^	HANDLE      m_pipe_write;$/;"	m	class:DJI_event	access:private
+DJI_event::m_sem	DJI_utility.h	/^	sem_t		m_sem;$/;"	m	class:DJI_event	access:private
+DJI_event::set_event	DJI_utility.cpp	/^int DJI_event::set_event()$/;"	f	class:DJI_event	signature:()
+DJI_event::set_event	DJI_utility.h	/^	int         set_event();$/;"	p	class:DJI_event	access:public	signature:()
+DJI_event::wait_event	DJI_utility.cpp	/^int DJI_event::wait_event()$/;"	f	class:DJI_event	signature:()
+DJI_event::wait_event	DJI_utility.h	/^	int         wait_event();$/;"	p	class:DJI_event	access:public	signature:()
+DJI_event::~DJI_event	DJI_utility.cpp	/^DJI_event::~DJI_event()$/;"	f	class:DJI_event	signature:()
+DJI_event::~DJI_event	DJI_utility.h	/^	~DJI_event();$/;"	p	class:DJI_event	access:public	signature:()
+DJI_lock	DJI_utility.cpp	/^DJI_lock::DJI_lock()$/;"	f	class:DJI_lock	signature:()
+DJI_lock	DJI_utility.h	/^	DJI_lock();$/;"	p	class:DJI_lock	access:public	signature:()
+DJI_lock	DJI_utility.h	/^class DJI_lock$/;"	c
+DJI_lock::DJI_lock	DJI_utility.cpp	/^DJI_lock::DJI_lock()$/;"	f	class:DJI_lock	signature:()
+DJI_lock::DJI_lock	DJI_utility.h	/^	DJI_lock();$/;"	p	class:DJI_lock	access:public	signature:()
+DJI_lock::enter	DJI_utility.cpp	/^void DJI_lock::enter()$/;"	f	class:DJI_lock	signature:()
+DJI_lock::enter	DJI_utility.h	/^	void         enter();$/;"	p	class:DJI_lock	access:public	signature:()
+DJI_lock::leave	DJI_utility.cpp	/^void DJI_lock::leave()$/;"	f	class:DJI_lock	signature:()
+DJI_lock::leave	DJI_utility.h	/^	void         leave();$/;"	p	class:DJI_lock	access:public	signature:()
+DJI_lock::m_critical_section	DJI_utility.h	/^	CRITICAL_SECTION  m_critical_section;$/;"	m	class:DJI_lock	access:private
+DJI_lock::m_lock	DJI_utility.h	/^	pthread_mutex_t m_lock;$/;"	m	class:DJI_lock	access:private
+DJI_lock::~DJI_lock	DJI_utility.cpp	/^DJI_lock::~DJI_lock()$/;"	f	class:DJI_lock	signature:()
+DJI_lock::~DJI_lock	DJI_utility.h	/^	~DJI_lock();$/;"	p	class:DJI_lock	access:public	signature:()
+FILE_NAME_MAX_SIZE	.client.cpp	17;"	d	file:
+GPS_Queue_MAX	getDataAndSave.cpp	42;"	d	file:
+GPS_Queue_MAX	getDataAndTrans.cpp	52;"	d	file:
+GPS_Queue_MAX	getDataAndTransTCP.cpp	52;"	d	file:
+Guidance	DJI_guidance.h	/^	Guidance = 0,	\/\/ Device type is Guidance$/;"	e	enum:e_device_type
+GuidanceLite	DJI_guidance.h	/^	GuidanceLite	\/\/ Possible future version$/;"	e	enum:e_device_type
+HEIGHT	getDataAndSave.cpp	37;"	d	file:
+HEIGHT	getDataAndTrans.cpp	47;"	d	file:
+HEIGHT	getDataAndTransTCP.cpp	47;"	d	file:
+IMAGE_SIZE	getDataAndSave.cpp	38;"	d	file:
+IMAGE_SIZE	getDataAndTrans.cpp	48;"	d	file:
+IMAGE_SIZE	getDataAndTransTCP.cpp	48;"	d	file:
+IP_address	getDataAndTrans.cpp	/^const char IP_address[]={"192.168.3.3"};$/;"	v
+IP_address	getDataAndTransTCP.cpp	/^const char IP_address[]={"192.168.3.3"};$/;"	v
+Image_Queue_MAX	getDataAndSave.cpp	43;"	d	file:
+Image_Queue_MAX	getDataAndTrans.cpp	53;"	d	file:
+Image_Queue_MAX	getDataAndTransTCP.cpp	53;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS = -Wl,-rpath,.\/:\/usr\/local\/lib -lpthread -lrt  -L. -L\/usr\/local\/lib\/ -lDJI_guidance -lusb-1.0 `pkg-config --libs opencv`$/;"	m
+MAXLEN	getDataAndTrans.cpp	/^const int MAXLEN = 65535-20-8;\/\/UDP协议可以传送的最大数据量$/;"	v
+MulDataStream	getDataAndTrans.cpp	/^struct MulDataStream$/;"	s	file:
+MulDataStream	getDataAndTransTCP.cpp	/^struct MulDataStream$/;"	s	file:
+MulDataStream::attitude	getDataAndTrans.cpp	/^	attitude_data attitude;$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::attitude	getDataAndTransTCP.cpp	/^	attitude_data attitude;$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::count	getDataAndTrans.cpp	/^	int count;$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::count	getDataAndTransTCP.cpp	/^	int count;$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::depth	getDataAndTrans.cpp	/^	unsigned char depth[WIDTH*HEIGHT*2];$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::depth	getDataAndTransTCP.cpp	/^	unsigned char depth[WIDTH*HEIGHT*2];$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::head	getDataAndTransTCP.cpp	/^	char head[5];$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::image_time_stamp	getDataAndTrans.cpp	/^	int image_time_stamp;$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::image_time_stamp	getDataAndTransTCP.cpp	/^	int image_time_stamp;$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::left	getDataAndTrans.cpp	/^	unsigned char left[WIDTH*HEIGHT];$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::left	getDataAndTransTCP.cpp	/^	unsigned char left[WIDTH*HEIGHT];$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::posi	getDataAndTrans.cpp	/^	gps_data posi;$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::posi	getDataAndTransTCP.cpp	/^	gps_data posi;$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::right	getDataAndTrans.cpp	/^	unsigned char right[WIDTH*HEIGHT];$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::right	getDataAndTransTCP.cpp	/^	unsigned char right[WIDTH*HEIGHT];$/;"	m	struct:MulDataStream	file:	access:public
+MulDataStream::tail	getDataAndTransTCP.cpp	/^	char tail[5];$/;"	m	struct:MulDataStream	file:	access:public
+OBJECTS	Makefile	/^OBJECTS = getDataAndTrans.o DJI_utility.o$/;"	m
+RELEASE_IF_ERR	getDataAndSave.cpp	40;"	d	file:
+RELEASE_IF_ERR	getDataAndTrans.cpp	50;"	d	file:
+RELEASE_IF_ERR	getDataAndTransTCP.cpp	50;"	d	file:
+RETURN_IF_ERR	getDataAndSave.cpp	39;"	d	file:
+RETURN_IF_ERR	getDataAndTrans.cpp	49;"	d	file:
+RETURN_IF_ERR	getDataAndTransTCP.cpp	49;"	d	file:
+SDK_API	DJI_guidance.h	15;"	d
+SDK_API	DJI_guidance.h	17;"	d
+SendData	getDataAndTrans.cpp	/^bool SendData(int sock, void *buf, int size,(struct sockaddr_in *) remote_addr)$/;"	f	signature:(int sock, void *buf, int size,(struct sockaddr_in *) remote_addr)
+SendData	getDataAndTransTCP.cpp	/^bool SendData(int sock, void *buf, int size)$/;"	f	signature:(int sock, void *buf, int size)
+TARGET	Makefile	/^TARGET = getData$/;"	m
+Thres	getDataAndSave.cpp	35;"	d	file:
+Thres	getDataAndTrans.cpp	45;"	d	file:
+Thres	getDataAndTransTCP.cpp	45;"	d	file:
+Transfer	getDataAndTrans.cpp	/^int Transfer()$/;"	f	signature:()
+Transfer	getDataAndTrans.cpp	/^int Transfer();$/;"	p	file:	signature:()
+Transfer	getDataAndTransTCP.cpp	/^int Transfer()$/;"	f	signature:()
+Transfer	getDataAndTransTCP.cpp	/^int Transfer();$/;"	p	file:	signature:()
+WIDTH	getDataAndSave.cpp	36;"	d	file:
+WIDTH	getDataAndTrans.cpp	46;"	d	file:
+WIDTH	getDataAndTransTCP.cpp	46;"	d	file:
+__DJI_GUIDANCE_H__	DJI_guidance.h	12;"	d
+__DJI_UTILITY_H__	DJI_utility.h	2;"	d
+_exposure_param	DJI_guidance.h	/^	_exposure_param(){$/;"	f	struct:_exposure_param	access:public	signature:()
+_exposure_param	DJI_guidance.h	/^typedef struct _exposure_param$/;"	s
+_exposure_param::_exposure_param	DJI_guidance.h	/^	_exposure_param(){$/;"	f	struct:_exposure_param	access:public	signature:()
+_exposure_param::m_camera_pair_index	DJI_guidance.h	/^	int           m_camera_pair_index;	\/\/ index of Guidance Sensor$/;"	m	struct:_exposure_param	access:public
+_exposure_param::m_expected_brightness	DJI_guidance.h	/^	unsigned int  m_expected_brightness;\/\/ constant expected brightness for AEC. Range is 50~200. Default is 85.$/;"	m	struct:_exposure_param	access:public
+_exposure_param::m_exposure_time	DJI_guidance.h	/^	float		  m_exposure_time;	\/\/ constant exposure time in mini-seconds. Range is 0.1~20. Default is 7.25.$/;"	m	struct:_exposure_param	access:public
+_exposure_param::m_is_auto_exposure	DJI_guidance.h	/^	unsigned int  m_is_auto_exposure;	\/\/ 1: auto exposure; 0: constant exposure$/;"	m	struct:_exposure_param	access:public
+_exposure_param::m_step	DJI_guidance.h	/^	float	      m_step;		\/\/ adjustment step for auto exposure control (AEC). Default is 10.$/;"	m	struct:_exposure_param	access:public
+_image_data	DJI_guidance.h	/^typedef struct _image_data$/;"	s
+_image_data::frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	                                  \/**< frame index *\/$/;"	m	struct:_image_data	access:public
+_image_data::m_depth_image	DJI_guidance.h	/^	char             *m_depth_image[CAMERA_PAIR_NUM];	              \/**< depth image in meters *\/$/;"	m	struct:_image_data	access:public
+_image_data::m_disparity_image	DJI_guidance.h	/^	char             *m_disparity_image[CAMERA_PAIR_NUM];             \/**< disparity image in pixels *\/$/;"	m	struct:_image_data	access:public
+_image_data::m_greyscale_image_left	DJI_guidance.h	/^	char             *m_greyscale_image_left[CAMERA_PAIR_NUM];	      \/**< greyscale image of left camera *\/$/;"	m	struct:_image_data	access:public
+_image_data::m_greyscale_image_right	DJI_guidance.h	/^	char             *m_greyscale_image_right[CAMERA_PAIR_NUM];   	  \/**< greyscale image of right camera *\/$/;"	m	struct:_image_data	access:public
+_image_data::time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	                                  \/**< time stamp of image captured in ms *\/$/;"	m	struct:_image_data	access:public
+_imu	DJI_guidance.h	/^typedef struct _imu$/;"	s
+_imu::acc_x	DJI_guidance.h	/^	float            acc_x;	                  \/**< acceleration of x in unit of m\/s^2 *\/$/;"	m	struct:_imu	access:public
+_imu::acc_y	DJI_guidance.h	/^	float            acc_y;	                  \/**< acceleration of y in unit of m\/s^2 *\/$/;"	m	struct:_imu	access:public
+_imu::acc_z	DJI_guidance.h	/^	float            acc_z;	                  \/**< acceleration of z in unit of m\/s^2 *\/$/;"	m	struct:_imu	access:public
+_imu::frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	          \/**< correspondent frame index *\/$/;"	m	struct:_imu	access:public
+_imu::q	DJI_guidance.h	/^	float            q[4];	                  \/**< quaternion: [w,x,y,z] *\/$/;"	m	struct:_imu	access:public
+_imu::time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	          \/**< time stamp of correspondent image captured in ms *\/$/;"	m	struct:_imu	access:public
+_motion	DJI_guidance.h	/^typedef struct _motion$/;"	s
+_motion::attitude_status	DJI_guidance.h	/^	int			     attitude_status;  \/\/ 0:invalid; 1:valid$/;"	m	struct:_motion	access:public
+_motion::corresponding_imu_index	DJI_guidance.h	/^	int		         corresponding_imu_index;$/;"	m	struct:_motion	access:public
+_motion::frame_index	DJI_guidance.h	/^	unsigned int     frame_index;$/;"	m	struct:_motion	access:public
+_motion::position_in_global_x	DJI_guidance.h	/^	float		     position_in_global_x;  \/\/ position in global frame: x $/;"	m	struct:_motion	access:public
+_motion::position_in_global_y	DJI_guidance.h	/^	float		     position_in_global_y;  \/\/ position in global frame: y $/;"	m	struct:_motion	access:public
+_motion::position_in_global_z	DJI_guidance.h	/^	float		     position_in_global_z;  \/\/ position in global frame: z $/;"	m	struct:_motion	access:public
+_motion::position_status	DJI_guidance.h	/^	int			     position_status; \/\/ lower 3 bits are confidence. 0:invalid; 1:valid$/;"	m	struct:_motion	access:public
+_motion::q0	DJI_guidance.h	/^	float		     q0;$/;"	m	struct:_motion	access:public
+_motion::q1	DJI_guidance.h	/^	float		     q1;$/;"	m	struct:_motion	access:public
+_motion::q2	DJI_guidance.h	/^	float		     q2;$/;"	m	struct:_motion	access:public
+_motion::q3	DJI_guidance.h	/^	float		     q3;$/;"	m	struct:_motion	access:public
+_motion::reserve_float	DJI_guidance.h	/^	float		     reserve_float[8];$/;"	m	struct:_motion	access:public
+_motion::reserve_int	DJI_guidance.h	/^	int			     reserve_int[4];$/;"	m	struct:_motion	access:public
+_motion::time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;$/;"	m	struct:_motion	access:public
+_motion::uncertainty_location	DJI_guidance.h	/^	float   	     uncertainty_location[3];\/\/ uncertainty of position$/;"	m	struct:_motion	access:public
+_motion::uncertainty_velocity	DJI_guidance.h	/^	float   	     uncertainty_velocity[3];\/\/ uncertainty of velocity$/;"	m	struct:_motion	access:public
+_motion::velocity_in_global_x	DJI_guidance.h	/^	float		     velocity_in_global_x;  \/\/ velocity in global frame: x $/;"	m	struct:_motion	access:public
+_motion::velocity_in_global_y	DJI_guidance.h	/^	float		     velocity_in_global_y;  \/\/ velocity in global frame: y $/;"	m	struct:_motion	access:public
+_motion::velocity_in_global_z	DJI_guidance.h	/^	float		     velocity_in_global_z;  \/\/ velocity in global frame: z $/;"	m	struct:_motion	access:public
+_motion::velocity_status	DJI_guidance.h	/^	int			     velocity_status; \/\/ lower 3 bits are confidence. 0:invalid; 1:valid$/;"	m	struct:_motion	access:public
+_obstacle_distance	DJI_guidance.h	/^typedef struct _obstacle_distance$/;"	s
+_obstacle_distance::distance	DJI_guidance.h	/^	unsigned short   distance[CAMERA_PAIR_NUM];     \/**< distance of obstacle in cm *\/$/;"	m	struct:_obstacle_distance	access:public
+_obstacle_distance::frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	                \/**< correspondent frame index *\/$/;"	m	struct:_obstacle_distance	access:public
+_obstacle_distance::time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	                \/**< time stamp of correspondent image captured in ms *\/$/;"	m	struct:_obstacle_distance	access:public
+_stereo_cali	DJI_guidance.h	/^	_stereo_cali() { }$/;"	f	struct:_stereo_cali	access:public	signature:()
+_stereo_cali	DJI_guidance.h	/^	_stereo_cali(float _cu, float _cv, float _focal, float _baseline)$/;"	f	struct:_stereo_cali	access:public	signature:(float _cu, float _cv, float _focal, float _baseline)
+_stereo_cali	DJI_guidance.h	/^typedef struct _stereo_cali$/;"	s
+_stereo_cali::_stereo_cali	DJI_guidance.h	/^	_stereo_cali() { }$/;"	f	struct:_stereo_cali	access:public	signature:()
+_stereo_cali::_stereo_cali	DJI_guidance.h	/^	_stereo_cali(float _cu, float _cv, float _focal, float _baseline)$/;"	f	struct:_stereo_cali	access:public	signature:(float _cu, float _cv, float _focal, float _baseline)
+_stereo_cali::baseline	DJI_guidance.h	/^	float baseline;		\/**< baseline of stereo cameras in units of meters *\/$/;"	m	struct:_stereo_cali	access:public
+_stereo_cali::cu	DJI_guidance.h	/^	float cu;			\/**< x position of focal center in units of pixels *\/$/;"	m	struct:_stereo_cali	access:public
+_stereo_cali::cv	DJI_guidance.h	/^	float cv;			\/**< y position of focal center in units of pixels *\/$/;"	m	struct:_stereo_cali	access:public
+_stereo_cali::focal	DJI_guidance.h	/^	float focal;		\/**< focal length in units of pixels *\/$/;"	m	struct:_stereo_cali	access:public
+_ultrasonic_data	DJI_guidance.h	/^typedef struct _ultrasonic_data$/;"	s
+_ultrasonic_data::frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	                        \/**< correspondent frame index *\/$/;"	m	struct:_ultrasonic_data	access:public
+_ultrasonic_data::reliability	DJI_guidance.h	/^	unsigned short   reliability[CAMERA_PAIR_NUM];	        \/**< reliability of the distance data *\/$/;"	m	struct:_ultrasonic_data	access:public
+_ultrasonic_data::time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	                        \/**< time stamp of correspondent image captured in ms *\/$/;"	m	struct:_ultrasonic_data	access:public
+_ultrasonic_data::ultrasonic	DJI_guidance.h	/^	short            ultrasonic[CAMERA_PAIR_NUM];	        \/**< distance in mm. -1 means invalid measurement. *\/$/;"	m	struct:_ultrasonic_data	access:public
+_velocity	DJI_guidance.h	/^typedef struct _velocity$/;"	s
+_velocity::frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	          \/**< correspondent frame index *\/$/;"	m	struct:_velocity	access:public
+_velocity::time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	          \/**< time stamp of correspondent image captured in ms *\/$/;"	m	struct:_velocity	access:public
+_velocity::vx	DJI_guidance.h	/^	short            vx;	                  \/**< velocity of x in mm\/s *\/$/;"	m	struct:_velocity	access:public
+_velocity::vy	DJI_guidance.h	/^	short            vy;	                  \/**< velocity of y in mm\/s *\/$/;"	m	struct:_velocity	access:public
+_velocity::vz	DJI_guidance.h	/^	short            vz;	                  \/**< velocity of z in mm\/s *\/$/;"	m	struct:_velocity	access:public
+acc_x	DJI_guidance.h	/^	float            acc_x;	                  \/**< acceleration of x in unit of m\/s^2 *\/$/;"	m	struct:_imu	access:public
+acc_y	DJI_guidance.h	/^	float            acc_y;	                  \/**< acceleration of y in unit of m\/s^2 *\/$/;"	m	struct:_imu	access:public
+acc_z	DJI_guidance.h	/^	float            acc_z;	                  \/**< acceleration of z in unit of m\/s^2 *\/$/;"	m	struct:_imu	access:public
+attitude	getDataAndTrans.cpp	/^	attitude_data attitude;$/;"	m	struct:MulDataStream	file:	access:public
+attitude	getDataAndTransTCP.cpp	/^	attitude_data attitude;$/;"	m	struct:MulDataStream	file:	access:public
+attitude_data	getDataAndSave.cpp	/^struct attitude_data$/;"	s	file:
+attitude_data	getDataAndTrans.cpp	/^struct attitude_data$/;"	s	file:
+attitude_data	getDataAndTransTCP.cpp	/^struct attitude_data$/;"	s	file:
+attitude_data::attitude_time_stamp	getDataAndSave.cpp	/^	int attitude_time_stamp;\/\/time stamp of attitude$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::attitude_time_stamp	getDataAndTrans.cpp	/^	int attitude_time_stamp;\/\/time stamp of attitude$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::attitude_time_stamp	getDataAndTransTCP.cpp	/^	int attitude_time_stamp;\/\/time stamp of attitude$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::pitch	getDataAndSave.cpp	/^	float pitch;\/\/pitch angle$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::pitch	getDataAndTrans.cpp	/^	float pitch;\/\/pitch angle$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::pitch	getDataAndTransTCP.cpp	/^	float pitch;\/\/pitch angle$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::roll	getDataAndSave.cpp	/^	float roll;\/\/roll angle$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::roll	getDataAndTrans.cpp	/^	float roll;\/\/roll angle$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::roll	getDataAndTransTCP.cpp	/^	float roll;\/\/roll angle$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::yaw	getDataAndSave.cpp	/^	float yaw;\/\/yaw angle$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::yaw	getDataAndTrans.cpp	/^	float yaw;\/\/yaw angle$/;"	m	struct:attitude_data	file:	access:public
+attitude_data::yaw	getDataAndTransTCP.cpp	/^	float yaw;\/\/yaw angle$/;"	m	struct:attitude_data	file:	access:public
+attitude_status	DJI_guidance.h	/^	int			     attitude_status;  \/\/ 0:invalid; 1:valid$/;"	m	struct:_motion	access:public
+attitude_time_stamp	getDataAndSave.cpp	/^	int attitude_time_stamp;\/\/time stamp of attitude$/;"	m	struct:attitude_data	file:	access:public
+attitude_time_stamp	getDataAndTrans.cpp	/^	int attitude_time_stamp;\/\/time stamp of attitude$/;"	m	struct:attitude_data	file:	access:public
+attitude_time_stamp	getDataAndTransTCP.cpp	/^	int attitude_time_stamp;\/\/time stamp of attitude$/;"	m	struct:attitude_data	file:	access:public
+attitude_tmp	getDataAndSave.cpp	/^attitude_data attitude_tmp;$/;"	v
+baseline	DJI_guidance.h	/^	float baseline;		\/**< baseline of stereo cameras in units of meters *\/$/;"	m	struct:_stereo_cali	access:public
+corresponding_imu_index	DJI_guidance.h	/^	int		         corresponding_imu_index;$/;"	m	struct:_motion	access:public
+count	getDataAndTrans.cpp	/^	int count;$/;"	m	struct:MulDataStream	file:	access:public
+count	getDataAndTransTCP.cpp	/^	int count;$/;"	m	struct:MulDataStream	file:	access:public
+cu	DJI_guidance.h	/^	float cu;			\/**< x position of focal center in units of pixels *\/$/;"	m	struct:_stereo_cali	access:public
+cv	DJI_guidance.h	/^	float cv;			\/**< y position of focal center in units of pixels *\/$/;"	m	struct:_stereo_cali	access:public
+data	getDataAndTrans.cpp	/^MulDataStream data;$/;"	v
+data	getDataAndTransTCP.cpp	/^MulDataStream data;$/;"	v
+depth	getDataAndTrans.cpp	/^	unsigned char depth[WIDTH*HEIGHT*2];$/;"	m	struct:MulDataStream	file:	access:public
+depth	getDataAndTransTCP.cpp	/^	unsigned char depth[WIDTH*HEIGHT*2];$/;"	m	struct:MulDataStream	file:	access:public
+distance	DJI_guidance.h	/^	unsigned short   distance[CAMERA_PAIR_NUM];     \/**< distance of obstacle in cm *\/$/;"	m	struct:_obstacle_distance	access:public
+e_OK	DJI_guidance.h	/^	e_OK = 0,				\/\/ Succeed with no error$/;"	e	enum:e_sdk_err_code
+e_config_not_ready	DJI_guidance.h	/^	e_config_not_ready=6,			\/\/ Config is not ready$/;"	e	enum:e_sdk_err_code
+e_device_type	DJI_guidance.h	/^enum e_device_type$/;"	g
+e_disparity_not_allowed	DJI_guidance.h	/^	e_disparity_not_allowed=4,		\/\/ Disparity or depth image is not allowed to be selected$/;"	e	enum:e_sdk_err_code
+e_event_num	DJI_guidance.h	/^	e_event_num$/;"	e	enum:e_guidance_event
+e_frequecy_10	DJI_guidance.h	/^	e_frequecy_10 = 1,	\/**< frequecy of image data: 10Hz *\/$/;"	e	enum:e_image_data_frequecy
+e_frequecy_20	DJI_guidance.h	/^	e_frequecy_20 = 2	\/**< frequecy of image data: 20Hz *\/$/;"	e	enum:e_image_data_frequecy
+e_frequecy_5	DJI_guidance.h	/^	e_frequecy_5 =  0,	\/**< frequecy of image data: 5Hz *\/$/;"	e	enum:e_image_data_frequecy
+e_guidance_event	DJI_guidance.h	/^enum e_guidance_event$/;"	g
+e_hardware_not_ready	DJI_guidance.h	/^	e_hardware_not_ready=3, \/\/ Guidance hardware is not ready$/;"	e	enum:e_sdk_err_code
+e_image	DJI_guidance.h	/^	e_image = 0,	   	   \/**< called back when image comes *\/$/;"	e	enum:e_guidance_event
+e_image_data_frequecy	DJI_guidance.h	/^enum e_image_data_frequecy$/;"	g
+e_image_frequency_not_allowed	DJI_guidance.h	/^	e_image_frequency_not_allowed=5,  \/\/ Image frequency must be one of the enum type e_image_data_frequecy$/;"	e	enum:e_sdk_err_code
+e_imu	DJI_guidance.h	/^	e_imu,	       	       \/**< called back when imu comes *\/$/;"	e	enum:e_guidance_event
+e_libusb_io_err	DJI_guidance.h	/^	e_libusb_io_err = -1,	\/\/ libusb IO error$/;"	e	enum:e_sdk_err_code
+e_load_libusb_err	DJI_guidance.h	/^	e_load_libusb_err=1,	\/\/ Load libusb library error$/;"	e	enum:e_sdk_err_code
+e_max_sdk_err	DJI_guidance.h	/^	e_max_sdk_err = 100			\/\/ maximum number of possible SDK errors$/;"	e	enum:e_sdk_err_code
+e_motion	DJI_guidance.h	/^	e_motion,              \/**< called back when global position comes *\/$/;"	e	enum:e_guidance_event
+e_obstacle_distance	DJI_guidance.h	/^	e_obstacle_distance,   \/**< called back when obstacle data comes *\/$/;"	e	enum:e_guidance_event
+e_online_flag_not_ready	DJI_guidance.h	/^	e_online_flag_not_ready=7,	\/\/ Online flag is not ready$/;"	e	enum:e_sdk_err_code
+e_sdk_err_code	DJI_guidance.h	/^enum e_sdk_err_code$/;"	g
+e_sdk_not_inited	DJI_guidance.h	/^	e_sdk_not_inited=2,		\/\/ SDK software is not ready$/;"	e	enum:e_sdk_err_code
+e_stereo_cali_not_ready	DJI_guidance.h	/^	e_stereo_cali_not_ready = 8,\/\/ Stereo calibration parameters are not ready$/;"	e	enum:e_sdk_err_code
+e_timeout	DJI_guidance.h	/^	e_timeout = -7,			\/\/ time out$/;"	e	enum:e_sdk_err_code
+e_ultrasonic	DJI_guidance.h	/^	e_ultrasonic,          \/**< called back when ultrasonic comes *\/$/;"	e	enum:e_guidance_event
+e_vbus1	DJI_guidance.h	/^	e_vbus1 = 1,	\/**< front on M100 *\/$/;"	e	enum:e_vbus_index
+e_vbus2	DJI_guidance.h	/^	e_vbus2 = 2,	\/**< right on M100 *\/$/;"	e	enum:e_vbus_index
+e_vbus3	DJI_guidance.h	/^	e_vbus3 = 3,	\/**< rear on M100 *\/$/;"	e	enum:e_vbus_index
+e_vbus4	DJI_guidance.h	/^	e_vbus4 = 4,	\/**< left on M100 *\/$/;"	e	enum:e_vbus_index
+e_vbus5	DJI_guidance.h	/^	e_vbus5 = 0	    \/**< down on M100 *\/$/;"	e	enum:e_vbus_index
+e_vbus_index	DJI_guidance.h	/^enum e_vbus_index$/;"	g
+e_velocity	DJI_guidance.h	/^	e_velocity,	    	   \/**< called back when velocity data comes *\/$/;"	e	enum:e_guidance_event
+enter	DJI_utility.cpp	/^void DJI_lock::enter()$/;"	f	class:DJI_lock	signature:()
+enter	DJI_utility.h	/^	void         enter();$/;"	p	class:DJI_lock	access:public	signature:()
+exposure_param	DJI_guidance.h	/^}exposure_param;$/;"	t	typeref:struct:_exposure_param
+focal	DJI_guidance.h	/^	float focal;		\/**< focal length in units of pixels *\/$/;"	m	struct:_stereo_cali	access:public
+frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	                                  \/**< frame index *\/$/;"	m	struct:_image_data	access:public
+frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	                        \/**< correspondent frame index *\/$/;"	m	struct:_ultrasonic_data	access:public
+frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	                \/**< correspondent frame index *\/$/;"	m	struct:_obstacle_distance	access:public
+frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	          \/**< correspondent frame index *\/$/;"	m	struct:_imu	access:public
+frame_index	DJI_guidance.h	/^	unsigned int     frame_index;	          \/**< correspondent frame index *\/$/;"	m	struct:_velocity	access:public
+frame_index	DJI_guidance.h	/^	unsigned int     frame_index;$/;"	m	struct:_motion	access:public
+frequency	getDataAndSave.cpp	/^e_image_data_frequecy frequency = e_frequecy_10;\/\/set the frequency of image$/;"	v
+frequency	getDataAndTrans.cpp	/^e_image_data_frequecy frequency = e_frequecy_20;\/\/set the frequency of image$/;"	v
+frequency	getDataAndTransTCP.cpp	/^e_image_data_frequecy frequency = e_frequecy_20;\/\/set the frequency of image$/;"	v
+g_depth	getDataAndSave.cpp	/^Mat	g_depth(HEIGHT, WIDTH, CV_16SC1);$/;"	p	file:	signature:(HEIGHT, WIDTH, CV_16SC1)
+g_imleft	getDataAndSave.cpp	/^Mat g_imleft(HEIGHT, WIDTH, CV_8U);$/;"	p	file:	signature:(HEIGHT, WIDTH, CV_8U)
+g_imright	getDataAndSave.cpp	/^Mat g_imright(HEIGHT, WIDTH, CV_8U);$/;"	p	file:	signature:(HEIGHT, WIDTH, CV_8U)
+g_lock	getDataAndSave.cpp	/^DJI_lock g_lock;$/;"	v
+g_lock	getDataAndTrans.cpp	/^DJI_lock g_lock;$/;"	v
+g_lock	getDataAndTransTCP.cpp	/^DJI_lock g_lock;$/;"	v
+get_device_type	DJI_guidance.h	/^SDK_API int get_device_type(e_device_type* device_type);$/;"	p	signature:(e_device_type* device_type)
+get_image_size	DJI_guidance.h	/^SDK_API	int get_image_size(int* width, int* height);$/;"	p	signature:(int* width, int* height)
+get_online_status	DJI_guidance.h	/^SDK_API int get_online_status(int online_status[CAMERA_PAIR_NUM]);$/;"	p	signature:(int online_status[CAMERA_PAIR_NUM])
+get_stereo_cali	DJI_guidance.h	/^SDK_API int get_stereo_cali( stereo_cali stereo_cali_pram[CAMERA_PAIR_NUM]);$/;"	p	signature:( stereo_cali stereo_cali_pram[CAMERA_PAIR_NUM])
+gps_data	getDataAndSave.cpp	/^struct gps_data$/;"	s	file:
+gps_data	getDataAndTrans.cpp	/^struct gps_data$/;"	s	file:
+gps_data	getDataAndTransTCP.cpp	/^struct gps_data$/;"	s	file:
+gps_data::gps_status	getDataAndSave.cpp	/^	bool gps_status;\/\/the gps validity$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_status	getDataAndTrans.cpp	/^	int gps_status;\/\/the gps validity$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_status	getDataAndTransTCP.cpp	/^	int gps_status;\/\/the gps validity$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_time_stamp	getDataAndSave.cpp	/^	int gps_time_stamp;\/\/time stamp of GPS$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_time_stamp	getDataAndTrans.cpp	/^	int gps_time_stamp;\/\/time stamp of GPS$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_time_stamp	getDataAndTransTCP.cpp	/^	int gps_time_stamp;\/\/time stamp of GPS$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_x	getDataAndSave.cpp	/^	float gps_x; \/\/gps data$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_x	getDataAndTrans.cpp	/^	float gps_x; \/\/gps data$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_x	getDataAndTransTCP.cpp	/^	float gps_x; \/\/gps data$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_y	getDataAndSave.cpp	/^	float gps_y;$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_y	getDataAndTrans.cpp	/^	float gps_y;$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_y	getDataAndTransTCP.cpp	/^	float gps_y;$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_z	getDataAndSave.cpp	/^	float gps_z;$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_z	getDataAndTrans.cpp	/^	float gps_z;$/;"	m	struct:gps_data	file:	access:public
+gps_data::gps_z	getDataAndTransTCP.cpp	/^	float gps_z;$/;"	m	struct:gps_data	file:	access:public
+gps_status	getDataAndSave.cpp	/^	bool gps_status;\/\/the gps validity$/;"	m	struct:gps_data	file:	access:public
+gps_status	getDataAndTrans.cpp	/^	int gps_status;\/\/the gps validity$/;"	m	struct:gps_data	file:	access:public
+gps_status	getDataAndTransTCP.cpp	/^	int gps_status;\/\/the gps validity$/;"	m	struct:gps_data	file:	access:public
+gps_time_stamp	getDataAndSave.cpp	/^	int gps_time_stamp;\/\/time stamp of GPS$/;"	m	struct:gps_data	file:	access:public
+gps_time_stamp	getDataAndTrans.cpp	/^	int gps_time_stamp;\/\/time stamp of GPS$/;"	m	struct:gps_data	file:	access:public
+gps_time_stamp	getDataAndTransTCP.cpp	/^	int gps_time_stamp;\/\/time stamp of GPS$/;"	m	struct:gps_data	file:	access:public
+gps_tmp	getDataAndSave.cpp	/^gps_data gps_tmp;$/;"	v
+gps_x	getDataAndSave.cpp	/^	float gps_x; \/\/gps data$/;"	m	struct:gps_data	file:	access:public
+gps_x	getDataAndTrans.cpp	/^	float gps_x; \/\/gps data$/;"	m	struct:gps_data	file:	access:public
+gps_x	getDataAndTransTCP.cpp	/^	float gps_x; \/\/gps data$/;"	m	struct:gps_data	file:	access:public
+gps_y	getDataAndSave.cpp	/^	float gps_y;$/;"	m	struct:gps_data	file:	access:public
+gps_y	getDataAndTrans.cpp	/^	float gps_y;$/;"	m	struct:gps_data	file:	access:public
+gps_y	getDataAndTransTCP.cpp	/^	float gps_y;$/;"	m	struct:gps_data	file:	access:public
+gps_z	getDataAndSave.cpp	/^	float gps_z;$/;"	m	struct:gps_data	file:	access:public
+gps_z	getDataAndTrans.cpp	/^	float gps_z;$/;"	m	struct:gps_data	file:	access:public
+gps_z	getDataAndTransTCP.cpp	/^	float gps_z;$/;"	m	struct:gps_data	file:	access:public
+head	getDataAndTransTCP.cpp	/^	char head[5];$/;"	m	struct:MulDataStream	file:	access:public
+image	getDataAndSave.cpp	/^image_data image;$/;"	v
+image	getDataAndTrans.cpp	/^image_data image;$/;"	v
+image	getDataAndTransTCP.cpp	/^image_data image;$/;"	v
+image_count	getDataAndSave.cpp	/^static int image_count = 0;$/;"	v	file:
+image_data	DJI_guidance.h	/^}image_data;$/;"	t	typeref:struct:_image_data
+image_time_stamp	getDataAndSave.cpp	/^int image_time_stamp = 0;$/;"	v
+image_time_stamp	getDataAndTrans.cpp	/^	int image_time_stamp;$/;"	m	struct:MulDataStream	file:	access:public
+image_time_stamp	getDataAndTransTCP.cpp	/^	int image_time_stamp;$/;"	m	struct:MulDataStream	file:	access:public
+image_update	getDataAndSave.cpp	/^bool image_update = 0;$/;"	v
+image_update	getDataAndTrans.cpp	/^bool image_update = 0;$/;"	v
+image_update	getDataAndTransTCP.cpp	/^bool image_update = 0;$/;"	v
+imu	DJI_guidance.h	/^}imu;$/;"	t	typeref:struct:_imu
+imu_data	getDataAndSave.cpp	/^imu imu_data;$/;"	v
+imu_data	getDataAndTrans.cpp	/^imu imu_data;$/;"	v
+imu_data	getDataAndTransTCP.cpp	/^imu imu_data;$/;"	v
+init_transfer	DJI_guidance.h	/^SDK_API int init_transfer( void );$/;"	p	signature:( void )
+itos	getDataAndSave.cpp	/^string itos(double i)$/;"	f	signature:(double i)
+itos	getDataAndTrans.cpp	/^string itos(double i)$/;"	f	signature:(double i)
+itos	getDataAndTransTCP.cpp	/^string itos(double i)$/;"	f	signature:(double i)
+leave	DJI_utility.cpp	/^void DJI_lock::leave()$/;"	f	class:DJI_lock	signature:()
+leave	DJI_utility.h	/^	void         leave();$/;"	p	class:DJI_lock	access:public	signature:()
+left	getDataAndTrans.cpp	/^	unsigned char left[WIDTH*HEIGHT];$/;"	m	struct:MulDataStream	file:	access:public
+left	getDataAndTransTCP.cpp	/^	unsigned char left[WIDTH*HEIGHT];$/;"	m	struct:MulDataStream	file:	access:public
+m_camera_pair_index	DJI_guidance.h	/^	int           m_camera_pair_index;	\/\/ index of Guidance Sensor$/;"	m	struct:_exposure_param	access:public
+m_critical_section	DJI_utility.h	/^	CRITICAL_SECTION  m_critical_section;$/;"	m	class:DJI_lock	access:private
+m_depth_image	DJI_guidance.h	/^	char             *m_depth_image[CAMERA_PAIR_NUM];	              \/**< depth image in meters *\/$/;"	m	struct:_image_data	access:public
+m_disparity_image	DJI_guidance.h	/^	char             *m_disparity_image[CAMERA_PAIR_NUM];             \/**< disparity image in pixels *\/$/;"	m	struct:_image_data	access:public
+m_expected_brightness	DJI_guidance.h	/^	unsigned int  m_expected_brightness;\/\/ constant expected brightness for AEC. Range is 50~200. Default is 85.$/;"	m	struct:_exposure_param	access:public
+m_exposure_time	DJI_guidance.h	/^	float		  m_exposure_time;	\/\/ constant exposure time in mini-seconds. Range is 0.1~20. Default is 7.25.$/;"	m	struct:_exposure_param	access:public
+m_greyscale_image_left	DJI_guidance.h	/^	char             *m_greyscale_image_left[CAMERA_PAIR_NUM];	      \/**< greyscale image of left camera *\/$/;"	m	struct:_image_data	access:public
+m_greyscale_image_right	DJI_guidance.h	/^	char             *m_greyscale_image_right[CAMERA_PAIR_NUM];   	  \/**< greyscale image of right camera *\/$/;"	m	struct:_image_data	access:public
+m_is_auto_exposure	DJI_guidance.h	/^	unsigned int  m_is_auto_exposure;	\/\/ 1: auto exposure; 0: constant exposure$/;"	m	struct:_exposure_param	access:public
+m_lock	DJI_utility.h	/^	pthread_mutex_t m_lock;$/;"	m	class:DJI_lock	access:private
+m_pipe_read	DJI_utility.h	/^	HANDLE      m_pipe_read;$/;"	m	class:DJI_event	access:private
+m_pipe_write	DJI_utility.h	/^	HANDLE      m_pipe_write;$/;"	m	class:DJI_event	access:private
+m_sem	DJI_utility.h	/^	sem_t		m_sem;$/;"	m	class:DJI_event	access:private
+m_step	DJI_guidance.h	/^	float	      m_step;		\/\/ adjustment step for auto exposure control (AEC). Default is 10.$/;"	m	struct:_exposure_param	access:public
+main	.client.cpp	/^int main()$/;"	f	signature:()
+main	getDataAndSave.cpp	/^int main()$/;"	f	signature:()
+main	getDataAndTrans.cpp	/^int main()$/;"	f	signature:()
+main	getDataAndTransTCP.cpp	/^int main()$/;"	f	signature:()
+main	test.cpp	/^int main()$/;"	f	signature:()
+motion	DJI_guidance.h	/^} motion;$/;"	t	typeref:struct:_motion
+motion_data	getDataAndSave.cpp	/^motion motion_data;$/;"	v
+motion_data	getDataAndTrans.cpp	/^motion motion_data;$/;"	v
+motion_data	getDataAndTransTCP.cpp	/^motion motion_data;$/;"	v
+my_callback	getDataAndSave.cpp	/^int my_callback(int data_type, int data_len, char *content)$/;"	f	signature:(int data_type, int data_len, char *content)
+my_callback	getDataAndTrans.cpp	/^int my_callback(int data_type, int data_len, char *content)$/;"	f	signature:(int data_type, int data_len, char *content)
+my_callback	getDataAndTransTCP.cpp	/^int my_callback(int data_type, int data_len, char *content)$/;"	f	signature:(int data_type, int data_len, char *content)
+obstacle_distance	DJI_guidance.h	/^}obstacle_distance;$/;"	t	typeref:struct:_obstacle_distance
+path	getDataAndSave.cpp	/^string path = "..\/data\/"; \/\/the saving path$/;"	v
+path_init	getDataAndSave.cpp	/^string path_init = "..\/data\/";$/;"	v
+pitch	getDataAndSave.cpp	/^	float pitch;\/\/pitch angle$/;"	m	struct:attitude_data	file:	access:public
+pitch	getDataAndTrans.cpp	/^	float pitch;\/\/pitch angle$/;"	m	struct:attitude_data	file:	access:public
+pitch	getDataAndTransTCP.cpp	/^	float pitch;\/\/pitch angle$/;"	m	struct:attitude_data	file:	access:public
+posi	getDataAndTrans.cpp	/^	gps_data posi;$/;"	m	struct:MulDataStream	file:	access:public
+posi	getDataAndTransTCP.cpp	/^	gps_data posi;$/;"	m	struct:MulDataStream	file:	access:public
+position_in_global_x	DJI_guidance.h	/^	float		     position_in_global_x;  \/\/ position in global frame: x $/;"	m	struct:_motion	access:public
+position_in_global_y	DJI_guidance.h	/^	float		     position_in_global_y;  \/\/ position in global frame: y $/;"	m	struct:_motion	access:public
+position_in_global_z	DJI_guidance.h	/^	float		     position_in_global_z;  \/\/ position in global frame: z $/;"	m	struct:_motion	access:public
+position_status	DJI_guidance.h	/^	int			     position_status; \/\/ lower 3 bits are confidence. 0:invalid; 1:valid$/;"	m	struct:_motion	access:public
+q	DJI_guidance.h	/^	float            q[4];	                  \/**< quaternion: [w,x,y,z] *\/$/;"	m	struct:_imu	access:public
+q0	DJI_guidance.h	/^	float		     q0;$/;"	m	struct:_motion	access:public
+q1	DJI_guidance.h	/^	float		     q1;$/;"	m	struct:_motion	access:public
+q2	DJI_guidance.h	/^	float		     q2;$/;"	m	struct:_motion	access:public
+q3	DJI_guidance.h	/^	float		     q3;$/;"	m	struct:_motion	access:public
+release_transfer	DJI_guidance.h	/^SDK_API int release_transfer( void );$/;"	p	signature:( void )
+reliability	DJI_guidance.h	/^	unsigned short   reliability[CAMERA_PAIR_NUM];	        \/**< reliability of the distance data *\/$/;"	m	struct:_ultrasonic_data	access:public
+reserve_float	DJI_guidance.h	/^	float		     reserve_float[8];$/;"	m	struct:_motion	access:public
+reserve_int	DJI_guidance.h	/^	int			     reserve_int[4];$/;"	m	struct:_motion	access:public
+reset_config	DJI_guidance.h	/^SDK_API int reset_config( void );$/;"	p	signature:( void )
+right	getDataAndTrans.cpp	/^	unsigned char right[WIDTH*HEIGHT];$/;"	m	struct:MulDataStream	file:	access:public
+right	getDataAndTransTCP.cpp	/^	unsigned char right[WIDTH*HEIGHT];$/;"	m	struct:MulDataStream	file:	access:public
+roll	getDataAndSave.cpp	/^	float roll;\/\/roll angle$/;"	m	struct:attitude_data	file:	access:public
+roll	getDataAndTrans.cpp	/^	float roll;\/\/roll angle$/;"	m	struct:attitude_data	file:	access:public
+roll	getDataAndTransTCP.cpp	/^	float roll;\/\/roll angle$/;"	m	struct:attitude_data	file:	access:public
+select_depth_image	DJI_guidance.h	/^SDK_API int select_depth_image( e_vbus_index camera_pair_index );$/;"	p	signature:( e_vbus_index camera_pair_index )
+select_disparity_image	DJI_guidance.h	/^SDK_API int select_disparity_image( e_vbus_index camera_pair_index );$/;"	p	signature:( e_vbus_index camera_pair_index )
+select_greyscale_image	DJI_guidance.h	/^SDK_API int select_greyscale_image( e_vbus_index camera_pair_index, bool is_left );$/;"	p	signature:( e_vbus_index camera_pair_index, bool is_left )
+select_imu	DJI_guidance.h	/^SDK_API void select_imu( void );$/;"	p	signature:( void )
+select_motion	DJI_guidance.h	/^SDK_API void select_motion( void );$/;"	p	signature:( void )
+select_obstacle_distance	DJI_guidance.h	/^SDK_API void select_obstacle_distance( void );$/;"	p	signature:( void )
+select_ultrasonic	DJI_guidance.h	/^SDK_API void select_ultrasonic( void );$/;"	p	signature:( void )
+select_velocity	DJI_guidance.h	/^SDK_API void select_velocity( void );$/;"	p	signature:( void )
+selected_vbus	getDataAndSave.cpp	/^e_vbus_index selected_vbus = e_vbus1;  \/\/ select front vbus$/;"	v
+selected_vbus	getDataAndTrans.cpp	/^e_vbus_index selected_vbus = e_vbus1;  \/\/ select front vbus$/;"	v
+selected_vbus	getDataAndTransTCP.cpp	/^e_vbus_index selected_vbus = e_vbus1;  \/\/ select front vbus$/;"	v
+set_event	DJI_utility.cpp	/^int DJI_event::set_event()$/;"	f	class:DJI_event	signature:()
+set_event	DJI_utility.h	/^	int         set_event();$/;"	p	class:DJI_event	access:public	signature:()
+set_exposure_param	DJI_guidance.h	/^SDK_API int set_exposure_param( exposure_param *param );$/;"	p	signature:( exposure_param *param )
+set_image_frequecy	DJI_guidance.h	/^SDK_API int set_image_frequecy( e_image_data_frequecy frequecy );$/;"	p	signature:( e_image_data_frequecy frequecy )
+set_sdk_event_handler	DJI_guidance.h	/^SDK_API int set_sdk_event_handler( user_call_back handler );$/;"	p	signature:( user_call_back handler )
+sleep	DJI_utility.cpp	/^void   sleep( int microsecond )$/;"	f	signature:( int microsecond )
+sleep	DJI_utility.h	/^void   sleep( int microsecond );$/;"	p	signature:( int microsecond )
+start_transfer	DJI_guidance.h	/^SDK_API int start_transfer( void );$/;"	p	signature:( void )
+stereo_cali	DJI_guidance.h	/^}stereo_cali;$/;"	t	typeref:struct:_stereo_cali
+stop_transfer	DJI_guidance.h	/^SDK_API int stop_transfer( void );$/;"	p	signature:( void )
+tail	getDataAndTransTCP.cpp	/^	char tail[5];$/;"	m	struct:MulDataStream	file:	access:public
+time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	                                  \/**< time stamp of image captured in ms *\/$/;"	m	struct:_image_data	access:public
+time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	                        \/**< time stamp of correspondent image captured in ms *\/$/;"	m	struct:_ultrasonic_data	access:public
+time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	                \/**< time stamp of correspondent image captured in ms *\/$/;"	m	struct:_obstacle_distance	access:public
+time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	          \/**< time stamp of correspondent image captured in ms *\/$/;"	m	struct:_imu	access:public
+time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;	          \/**< time stamp of correspondent image captured in ms *\/$/;"	m	struct:_velocity	access:public
+time_stamp	DJI_guidance.h	/^	unsigned int     time_stamp;$/;"	m	struct:_motion	access:public
+ultrasonic	DJI_guidance.h	/^	short            ultrasonic[CAMERA_PAIR_NUM];	        \/**< distance in mm. -1 means invalid measurement. *\/$/;"	m	struct:_ultrasonic_data	access:public
+ultrasonic_data	DJI_guidance.h	/^}ultrasonic_data;$/;"	t	typeref:struct:_ultrasonic_data
+uncertainty_location	DJI_guidance.h	/^	float   	     uncertainty_location[3];\/\/ uncertainty of position$/;"	m	struct:_motion	access:public
+uncertainty_velocity	DJI_guidance.h	/^	float   	     uncertainty_velocity[3];\/\/ uncertainty of velocity$/;"	m	struct:_motion	access:public
+user_call_back	DJI_guidance.h	/^typedef int (*user_call_back)( int event_type, int data_len, char *data );$/;"	t
+velocity	DJI_guidance.h	/^}velocity;$/;"	t	typeref:struct:_velocity
+velocity_in_global_x	DJI_guidance.h	/^	float		     velocity_in_global_x;  \/\/ velocity in global frame: x $/;"	m	struct:_motion	access:public
+velocity_in_global_y	DJI_guidance.h	/^	float		     velocity_in_global_y;  \/\/ velocity in global frame: y $/;"	m	struct:_motion	access:public
+velocity_in_global_z	DJI_guidance.h	/^	float		     velocity_in_global_z;  \/\/ velocity in global frame: z $/;"	m	struct:_motion	access:public
+velocity_status	DJI_guidance.h	/^	int			     velocity_status; \/\/ lower 3 bits are confidence. 0:invalid; 1:valid$/;"	m	struct:_motion	access:public
+vx	DJI_guidance.h	/^	short            vx;	                  \/**< velocity of x in mm\/s *\/$/;"	m	struct:_velocity	access:public
+vy	DJI_guidance.h	/^	short            vy;	                  \/**< velocity of y in mm\/s *\/$/;"	m	struct:_velocity	access:public
+vz	DJI_guidance.h	/^	short            vz;	                  \/**< velocity of z in mm\/s *\/$/;"	m	struct:_velocity	access:public
+wait_event	DJI_utility.cpp	/^int DJI_event::wait_event()$/;"	f	class:DJI_event	signature:()
+wait_event	DJI_utility.h	/^	int         wait_event();$/;"	p	class:DJI_event	access:public	signature:()
+wait_for_board_ready	DJI_guidance.h	/^SDK_API int wait_for_board_ready();$/;"	p	signature:()
+yaw	getDataAndSave.cpp	/^	float yaw;\/\/yaw angle$/;"	m	struct:attitude_data	file:	access:public
+yaw	getDataAndTrans.cpp	/^	float yaw;\/\/yaw angle$/;"	m	struct:attitude_data	file:	access:public
+yaw	getDataAndTransTCP.cpp	/^	float yaw;\/\/yaw angle$/;"	m	struct:attitude_data	file:	access:public
+~DJI_event	DJI_utility.cpp	/^DJI_event::~DJI_event()$/;"	f	class:DJI_event	signature:()
+~DJI_event	DJI_utility.h	/^	~DJI_event();$/;"	p	class:DJI_event	access:public	signature:()
+~DJI_lock	DJI_utility.cpp	/^DJI_lock::~DJI_lock()$/;"	f	class:DJI_lock	signature:()
+~DJI_lock	DJI_utility.h	/^	~DJI_lock();$/;"	p	class:DJI_lock	access:public	signature:()
