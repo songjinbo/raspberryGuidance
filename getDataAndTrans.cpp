@@ -216,6 +216,7 @@ int main()
 	int flags =fcntl(client_socket,F_GETFL,0);
 	fcntl(client_socket,F_SETFL,flags&~O_NONBLOCK);
 	//设置发送缓冲区大小
+	//const int snd_size = 310*1024*4;
 	const int snd_size = 310*1024*4;
 	if(setsockopt(client_socket, SOL_SOCKET, SO_SNDBUF, (char *)&snd_size, sizeof(snd_size))<0)
 	{
